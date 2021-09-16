@@ -1,0 +1,39 @@
+h1,
+H3,
+h5 {
+    /* Color del Título */
+    color: rgb(126, 181, 38);
+    font: 1em sans-serif;
+    width: 300px;
+}
+
+form {
+    /* Centrar el formulario en la página */
+    margin: 1px auto;
+    width: 450px;
+    /* Esquema del formulario */
+    padding: 2em;
+    border: 1px solid rgb(126, 181, 38);
+    border-radius: 1em;
+    background-color: rgb(255, 255, 255);
+}
+
+p,
+p1 {
+    /* Color de categoria */
+    color: rgb(126, 181, 38);
+    font-weight: bold;
+    font-size: big;
+}
+
+p2 {
+    color: rgb(126, 181, 38);
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p3 {
+    color: rgb(126, 181, 38);
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

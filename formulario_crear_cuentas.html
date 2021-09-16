@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <title>Tu Empleo Ya!</title>
+  </head>
+  <body>
+    <h1>Crear una cuenta</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="shadow-lg p-3 mb-5 mt-4 bg-body rounded">
+
+                <from class="row g=3 needs-validation"novalidate></from>
+                    <div class="col-md-4">
+                        <label for="nombre" class="form-label">Nombres</label>
+                        <input id="nombre" name="nombre" type="text" class="form-control" required></br>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="apellido" class="form-label">Apellidos</label>
+                        <input id="apellido" name="apellido" type="text" class="form-control" required></br>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="email" class="form-label">E-mail</label>
+                        <input id="email" name="email" type="email" class="form-control" required></br>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="edad" class="form-label">Edad</label>
+                        <input id="edad" name="edad" type="number" class="form-control" required></br>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="fecha" class="form-label">Fecha de nacimiento</label>
+                        <input id="fecha" name="fecha" type="date" class="form-control" required></br>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="contraseña" class="form-label">Contraseña</label>
+                        <input id="contraseña" name="contraseña" type="password" class="form-control" required></br>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="genero">Género</label></br>
+                        <label for="femenino">Femenino</label></br>
+                        <input id="femenino" name="genero" type="radio" required></br>
+                        <label for="masculino">Masculino</label></br>
+                        <input id="masculino" name="genero" type="radio" required></br></br>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="numero" class="form-label">Teléfono</label>
+                        <input id="numero" name="numero" type="tel" pattern="[0-9]{9}" class="form-control" required></br>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="depto">Departamento</label>
+                        <select name="depto" id="depto" class="from-select" required>
+                            <option selected disabled value="">Seleccione...</option>
+                            <option>Amazonas</option>
+                            <option>Antioquia</option>
+                            <option>Arauca</option>
+                            <option>Atlántico</option>
+                            <option>Bogotá</option>
+                            <option>Bolívar</option>
+                            <option>Boyacá</option>
+                            <option>Caldas</option>
+                            <option>Caquetá</option>
+                            <option>Casanare</option>
+                            <option>Cauca</option>
+                            <option>Cesar</option>
+                            <option>Chocó</option>
+                            <option>Córdoba</option>
+                            <option>Cundinamarca</option>
+                            <option>Guainía</option>
+                            <option>Guaviare</option>
+                            <option>Huila</option>
+                            <option>La Guajira</option>
+                            <option>Magdalena</option>
+                            <option>Meta</option>
+                            <option>Nariño</option>
+                            <option>Norte de Santander</option>
+                            <option>Putumayo</option>
+                            <option>Quindío</option>
+                            <option>Risaralda</option>
+                            <option>San Andrés y Providencia</option>
+                            <option>Santander</option>
+                            <option>Sucre</option>
+                            <option>Tolima</option>
+                            <option>Valle del Cauca</option>
+                            <option>Vaupés</option>
+                            <option>Vichada</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-warning fw-bold">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+    </script>
+    
+  </body>
+</html>
