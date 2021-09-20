@@ -1,0 +1,35 @@
+h1 {
+    /* Color del Título */
+    color: rgb(126, 181, 38);
+    font: 1em sans-serif;
+    width: 600px;
+    text-indent: 35px/*Da sangría al inicio del texto (izquierda) */
+}
+
+H3,
+h5 {
+    /* Color del Título */
+    color: rgb(126, 181, 38);
+    font: 1em sans-serif;
+    width: 600px;
+}
+
+p,
+p1 {
+    /* Color de categoria */
+    color: rgb(126, 181, 38);
+    font-weight: bold;
+    font-size: big;
+}
+
+p2 {
+    color: rgb(126, 181, 38);
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p3 {
+    color: rgb(126, 181, 38);
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

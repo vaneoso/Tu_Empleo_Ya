@@ -1,0 +1,65 @@
+h1 {
+    /* Color del Título */
+    color: rgb(126, 181, 38);
+    font: 1em sans-serif;
+    width: 600px;
+    text-indent: 35px/*Da sangría al inicio del texto (izquierda) */
+}
+
+H3,
+h5 {
+    /* Color del Título */
+    color: rgb(126, 181, 38);
+    font: 1em sans-serif;
+    width: 600px;
+}
+
+p,
+p1 {
+    /* Color de categoria */
+    color: rgb(126, 181, 38);
+    font-weight: normal;
+    font-size: big;
+    line-height: 10px/*Ajusta interlineado párrafos*/
+}
+
+p2 {
+    color: rgb(126, 181, 38);
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p3 {
+    color: rgb(126, 181, 38);
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* Define estilo a las Estrellas de Calificación: */
+
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+}
+
+#form p {
+    text-align: center;
+}
+
+#form label {
+    font-size: 20px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+c1 {
+    color: rgb(78, 197, 22);
+}
+
+c2 {
+    color: gray;
+}
