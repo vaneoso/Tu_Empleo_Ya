@@ -1,0 +1,33 @@
+h1 {
+    /* Color del Título */
+    color: rgb(126, 181, 38);
+    font: 1em sans-serif;
+    width: 300px;
+}
+
+form {
+    /* Centrar el formulario en la página */
+    margin: 1px auto;
+    width: 1108px;
+    /* Esquema del formulario */
+    padding: 2em;
+    border: 1px solid rgb(126, 181, 38);
+    border-radius: 1em;
+    background-color: rgb(255, 255, 255);
+}
+
+p,
+p1 {
+    /* Color de categoria */
+    color: rgb(126, 181, 38);
+    font-weight: bold;
+    font-size: big;
+}
+
+form input:invalid {
+    box-shadow: 0 0 2px 1px rgb(126, 181, 38);
+}
+
+input:focus:invalid {
+    box-shadow: none;
+}
