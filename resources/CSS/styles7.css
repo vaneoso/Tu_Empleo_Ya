@@ -2,7 +2,8 @@ h1 {
     /* Color del Título */
     color: rgb(126, 181, 38);
     font: 1em sans-serif;
-    width: 300px;
+    width: 350px;
+    text-indent: 35px/*Da sangría al inicio del texto (izquierda) */
 }
 
 form {
@@ -11,8 +12,8 @@ form {
     width: 1108px;
     /* Esquema del formulario */
     padding: 2em;
-    border: 1px solid rgb(126, 181, 38);
-    border-radius: 1em;
+    /* border: 1px solid rgb(126, 181, 38);
+    border-radius: 1em; */
     background-color: rgb(255, 255, 255);
 }
 
