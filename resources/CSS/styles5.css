@@ -5,6 +5,7 @@ h5 {
     color: rgb(126, 181, 38);
     font: 1em sans-serif;
     width: 600px;
+    text-indent: 35px/*Da sangría al inicio del texto (izquierda) */
 }
 
 form {
