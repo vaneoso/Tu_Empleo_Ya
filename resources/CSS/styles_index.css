@@ -1,0 +1,128 @@
+                              body {
+                                  background-color: white;
+                              }
+                              
+                              .contenedor_total {
+                                  margin: auto;
+                              }
+                              
+                              header {
+                                  margin: 5px;
+                                  padding: auto;
+                              }
+                              
+                              header nav ul li {
+                                  display: inline-block;
+                                  padding: 3px;
+                              }
+                              
+                              header nav ul li a {
+                                  text-emphasis: none;
+                                  font-family: "Roboto", sans-serif;
+                                  font-size: 18px;
+                                  color: white;
+                                  font-weight: bold;
+                                  text-decoration: none;
+                                  margin: auto;
+                              }
+                              
+                              nav {
+                                  font-family: "Roboto", sans-serif;
+                                  float: right;
+                                  background-color: rgb(126, 181, 38);
+                                  width: 70%;
+                                  border-radius: 50px 00px 5px 110px;
+                                  padding: 0px;
+                                  margin: auto;
+                              }
+                              
+                              nav ul {
+                                  margin: auto;
+                              }
+                              
+                              li a:hover {
+                                  color: rgb(13, 75, 43);
+                              }
+                              
+                              #search {
+                                  float: right;
+                                  width: 90%;
+                                  margin: 0px;
+                              }
+                              
+                              #btnbuscar {
+                                  height: 80%;
+                              }
+                              
+                              .contenedor {
+                                  background-color: rgb(230, 208, 208);
+                                  display: inline-flex;
+                                  width: 1350px;
+                                  height: 450px;
+                                  margin: auto;
+                                  margin: 10px;
+                                  float: left;
+                              }
+                              
+                              .columna1 {
+                                  background-color: rgb(230, 208, 208);
+                                  width: 50%;
+                                  height: 100%;
+                                  margin: auto;
+                              }
+                              
+                              .columna2 {
+                                  background-color: rgb(82, 253, 15);
+                                  width: 50%;
+                                  height: 100%;
+                                  float: right;
+                              }
+                              
+                              .columna1 .bienvenida {
+                                  background-color: #edf4e0;
+                                  width: 100%;
+                                  height: 50%;
+                                  text-align: center;
+                              }
+                              
+                              .columna1 .botones {
+                                  background-color: #edf4e0;
+                                  width: 100%;
+                                  height: 50%;
+                                  text-align: center;
+                                  text-decoration: none;
+                                  color: rgb(53, 190, 46);
+                                  align-items: center;
+                                  text-decoration: none;
+                              }
+                              
+                              .columna2 .imgprincipal {
+                                  background-color: #edf4e0;
+                                  width: 100%;
+                                  height: 50%;
+                              }
+                              
+                              .columna2 .descripcion {
+                                  background-color: #edf4e0;
+                                  color: rgb(53, 190, 46);
+                                  width: 100%;
+                                  height: 50%;
+                                  text-align: center;
+                              }
+                              
+                              h1 {
+                                  text-align: left;
+                                  color: rgb(126, 181, 38);
+                                  text-indent: 35px
+                              }
+                              
+                              footer {
+                                  clear: both;
+                                  width: 1360px;
+                                  height: 5%;
+                                  background-color: rgb(126, 181, 38);
+                                  text-align: center;
+                                  color: white;
+                                  line-height: 50px;
+                                  font-style: italic;
+                              }

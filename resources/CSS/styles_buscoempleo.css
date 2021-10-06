@@ -1,0 +1,113 @@
+h1 {
+    /* Color del Título */
+    color: rgb(126, 181, 38);
+    font: 1em sans-serif;
+    width: 600px;
+    text-indent: 35px/*Da sangría al inicio del texto (izquierda) */
+}
+
+form {
+    /* Centrar el formulario en la página */
+    margin: 1px auto;
+    width: 1108px;
+    /* Esquema del formulario */
+    padding: 2em;
+    border: 1px solid rgb(126, 181, 38);
+    border-radius: 1em;
+    background-color: rgb(255, 255, 255);
+}
+
+p {
+    color: rgb(126, 181, 38);
+    font-weight: bold;
+    font-size: big;
+}
+
+h1 {
+    color: rgb(126, 181, 38);
+    font-size: 30px;
+}
+
+form input:invalid {
+    box-shadow: 0 0 2px 1px rgb(126, 181, 38);
+}
+
+input:focus:invalid {
+    box-shadow: none;
+}
+
+body {
+    border: 0;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+}
+
+.contenedor_total {
+    margin: auto;
+}
+
+header {
+    margin: 5px;
+    padding: auto;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0px;
+}
+
+header nav ul li a {
+    text-emphasis: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: auto;
+}
+
+nav {
+    font-family: "Roboto", sans-serif;
+    float: right;
+    background-color: rgb(126, 181, 38);
+    width: 70%;
+    border-radius: 50px 00px 5px 110px;
+    padding: 0px;
+    margin: auto;
+}
+
+nav ul {
+    margin: auto;
+    color: #000;
+}
+
+li a {
+    color: #000;
+}
+
+li a:hover {
+    color: rgb(245, 63, 248);
+}
+
+#search {
+    float: right;
+    width: 100%;
+    margin: 0px;
+}
+
+#btnbuscar {
+    height: 20%;
+}
+
+footer {
+    clear: both;
+    width: 1345px;
+    height: 5%;
+    background-color: rgb(126, 181, 38);
+    text-align: center;
+    color: white;
+    line-height: 30px;
+    font-style: italic;
+}
