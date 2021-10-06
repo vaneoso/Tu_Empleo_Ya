@@ -1,4 +1,6 @@
-<link rel="stylesheet" href="resources/CSS/styles_crear.css">
+<link rel="stylesheet" href="resources/css/styles_crear.css">
+<link rel="stylesheet" href="resources/css/styles_index.css">
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,11 +14,38 @@
 </head>
 
 <body>
+
+    <div class="contenedor_total">
+
+        <!-- ==============================================-->
+        <!-- ENCABEZADO-->
+        <!-- ==============================================-->
+        <header>
+
+
+            <img src="resources/img/LogoTuempleoYa.png" height="100px">
+            <!-- <span>Tu empleo ya!</span> -->
+
+            <!-- ==============================================-->
+            <!-- MENU NAVEGACION-->
+            <!-- ==============================================-->
+            <nav class="menu" style="margin: 35px 0px 0px 0px;">
+                <div class="container-fluid">
+                    <ul>
+                        <li style="text-emphasis: none;"> <a class="navbar-item" href="00_index.html"> Inicio </a></li>
+                        <li> <a class="nav-item" href="00_index.html"> Salir</a> </li>
+                        <form class="d-flex" style="float:right;margin:10px;">
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" id="search">
+                            <button class="btn btn-outline-success" type="submit" id="btnbuscar" style="color:rgb(255, 255, 255)">Buscar</button>
+                        </form>
+                    </ul>
+                </div>
+    </div>
+    </nav>
+    <p style="float:right;width:65%; height:10px; background-color:rgb(126, 181, 38););"></p>
     <div class="bg-success p-2 text-dark bg-opacity-10">
         <br>
         <h1>Crear una Cuenta</h1>
-        <br>
-        <br>
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -146,7 +175,13 @@
                                 </br>
                             </div>
                     </div>
-                    <button type="submit" class="btn btn-warning fw-bold" style="background-color: rgb(126, 181, 38); color: rgb(255, 255, 255); border-color: rgb(126, 181, 38);">Enviar</button>
+                    <button type="submit" class="btn btn-warning fw-bold" style="background-color: rgb(126, 181, 38); color: rgb(255, 255, 255); border-color: rgb(126, 181, 38);" required>Enviar</button>
+                    <br>
+                    <br>
+                    <br>
+                    <h3> ¿Cómo quieres continuar tu registro?</h3>
+                    <button class="btn btn-outline-success" type="button"><a href="03_ofrezco_empleo.html" style="color:rgb(126, 181, 38)"><p2>Ofrezco Empleo >></p2></a></button>
+                    <button class="btn btn-outline-success" type="button"><a href="02_busco_empleo.html" style="color:rgb(126, 181, 38)"><p2>Busco Empleo >></p2></a></button>
                 </div>
             </div>
         </div>
